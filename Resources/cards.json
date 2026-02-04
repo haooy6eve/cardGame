@@ -1,0 +1,100 @@
+{
+  "cards": [
+    {
+      "id": "block_oak_planks",
+      "name": "橡木木板",
+      "type": "Block",
+      "stats": { "cost": 1, "durability": 2 },
+      "description": "基础建材。可用于建造或合成木制工具。",
+      "art": "block_oak_planks.png"
+    },
+    {
+      "id": "resource_cobblestone",
+      "name": "圆石",
+      "type": "Resource",
+      "stats": { "cost": 1 },
+      "description": "常见矿物。用于合成石制工具与熔炉。",
+      "art": "resource_cobblestone.png"
+    },
+    {
+      "id": "tool_iron_pickaxe",
+      "name": "铁镐",
+      "type": "Tool",
+      "stats": { "cost": 2, "durability": 3 },
+      "description": "采集效率提升。使用后可额外抽 1 张资源牌。",
+      "art": "item_iron_pickaxe.png"
+    },
+    {
+      "id": "weapon_diamond_sword",
+      "name": "钻石剑",
+      "type": "Weapon",
+      "stats": { "cost": 4, "attack": 5, "durability": 3 },
+      "description": "强力武器。击败怪物时获得 1 点经验。",
+      "art": "item_diamond_sword.png"
+    },
+    {
+      "id": "armor_iron_chestplate",
+      "name": "铁胸甲",
+      "type": "Armor",
+      "stats": { "cost": 3, "defense": 3, "durability": 4 },
+      "description": "提供护甲值，抵消怪物伤害。",
+      "art": "item_iron_chestplate.png"
+    },
+    {
+      "id": "mob_zombie",
+      "name": "僵尸",
+      "type": "Mob",
+      "stats": { "cost": 2, "attack": 3, "defense": 1 },
+      "description": "夜晚出现。若未击败，将在回合结束造成 2 点伤害。",
+      "art": "mob_zombie.png"
+    },
+    {
+      "id": "mob_enderman",
+      "name": "末影人",
+      "type": "Mob",
+      "stats": { "cost": 3, "attack": 4, "defense": 2 },
+      "description": "出现时随机传送：弃 1 张手牌，获得 1 点经验。",
+      "art": "mob_enderman.png"
+    },
+    {
+      "id": "event_creeper_explosion",
+      "name": "苦力怕爆炸",
+      "type": "Event",
+      "stats": { "cost": 1 },
+      "description": "所有建筑耐久 -1。若没有建筑，直接失去 2 点生命。",
+      "art": "event_creeper.png"
+    },
+    {
+      "id": "structure_furnace",
+      "name": "熔炉",
+      "type": "Structure",
+      "stats": { "cost": 2, "durability": 4 },
+      "description": "每回合可将 1 张矿物资源转化为铁锭或金锭。",
+      "art": "block_furnace.png"
+    },
+    {
+      "id": "structure_nether_portal",
+      "name": "下界传送门",
+      "type": "Structure",
+      "stats": { "cost": 4, "durability": 5 },
+      "description": "进入下界后，火焰相关卡牌效果 +1，并可抽取下界卡池。",
+      "art": "block_nether_portal.png"
+    },
+    {
+      "id": "enchant_sharpness",
+      "name": "锋利",
+      "type": "Enchant",
+      "stats": { "cost": 1 },
+      "description": "本回合武器攻击力 +2，击败怪物后回复 1 点生命。",
+      "art": "enchant_sharpness.png"
+    },
+    {
+      "id": "event_dragon_arrives",
+      "name": "末影龙降临",
+      "type": "Event",
+      "stats": { "cost": 5, "attack": 7, "defense": 5 },
+      "description": "终局 Boss。击败后立即获胜。",
+      "art": "boss_ender_dragon.png"
+    }
+  ]
+}
