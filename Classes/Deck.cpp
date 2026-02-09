@@ -84,3 +84,12 @@ bool Deck::empty() const {
 const std::vector<Card>& Deck::getCards() const {
     return cards_;
 }
+
+const Card* Deck::findById(const std::string& id) const {
+    for (const auto& card : cards_) {
+        if (card.getId() == id) {
+            return &card;
+        }
+    }
+    return nullptr;
+}

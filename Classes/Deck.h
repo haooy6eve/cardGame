@@ -11,6 +11,7 @@ public:
     Card draw();
     bool empty() const;
     const std::vector<Card>& getCards() const;
+    const Card* findById(const std::string& id) const;
 
 private:
     std::vector<Card> cards_;

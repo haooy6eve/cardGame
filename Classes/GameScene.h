@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Deck.h"
+#include "GameState.h"
 #include "cocos2d.h"
 
 class GameScene : public cocos2d::Layer {
@@ -12,7 +13,11 @@ public:
 private:
     void setupUi();
     void loadDeck();
+    void runDemo();
+    void updateStatusLabel();
 
     Deck deck_;
+    GameState gameState_;
     cocos2d::Label* rulesLabel_ = nullptr;
+    cocos2d::Label* statusLabel_ = nullptr;
 };
